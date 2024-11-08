@@ -73,9 +73,11 @@ a:hover{
 }
 
 img{
-    max-width: 30rem;
+    max-width: 100%;
+    max-height: 30rem;
     border-radius: 6rem;
     padding-right: 2rem;
+    object-fit: cover;
 }
 
 #about-me{
