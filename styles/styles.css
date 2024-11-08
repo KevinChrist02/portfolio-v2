@@ -41,7 +41,7 @@ body{
     justify-content: space-evenly;
 }
 
-#main-headings{
+#main-content{
     padding: 1.5rem 0 1.5rem 2.5rem;
 }
 
@@ -51,10 +51,18 @@ body{
 
 #heading2{
     color: var(--secondary-color);
-    text-align: right;
 }
 
 img{
     max-width: 30rem;
     border-radius: 6rem;
+    padding-right: 2rem;
+}
+
+#about-me{
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    font-family: var(--font-primary);
+    font-weight: 700;
+    color: var(--white);
 }
