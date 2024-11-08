@@ -4,7 +4,7 @@
     --black: #222222;
     --white: #ffffff;
     --font-primary: 'Satoshi', sans-serif;
-    --font-heading: 'Stardom', sans-serif; 
+    --font-heading: 'Chillax', sans-serif; 
 }
 
 html{
@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: space-between;
     font-family: var(--font-primary);
-    font-weight: 400;
+    font-weight: 700;
     font-size: 2.5rem;
     color: var(--white);
     background-color: var(--primary-color);
@@ -33,7 +33,8 @@ body{
 #main{
     background-color: var(--primary-color);
     font-family: var(--font-heading);
-    font-size: 7.5rem;
+    font-size: 6rem;
+    font-weight: 700;
 }
 
 #main-headings{
