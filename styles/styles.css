@@ -35,6 +35,10 @@ body{
     font-family: var(--font-heading);
     font-size: 6rem;
     font-weight: 700;
+    display: flex;
+    padding: 4rem 0 4rem 0;
+    gap: 4rem;
+    justify-content: space-evenly;
 }
 
 #main-headings{
@@ -47,5 +51,10 @@ body{
 
 #heading2{
     color: var(--secondary-color);
-    padding-left: 6rem;
+    text-align: right;
+}
+
+img{
+    max-width: 30rem;
+    border-radius: 6rem;
 }
