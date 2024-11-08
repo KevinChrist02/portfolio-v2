@@ -22,10 +22,29 @@ body{
     font-weight: 400;
     font-size: 2.5rem;
     color: var(--white);
-    background-color: var(--black);
+    background-color: var(--primary-color);
     padding: 1.5rem;
 }
 #menu{
     display: flex;
-    gap: 1rem;
+    gap: 2.5rem;
+}
+
+#main{
+    background-color: var(--primary-color);
+    font-family: var(--font-heading);
+    font-size: 7.5rem;
+}
+
+#main-headings{
+    padding: 1.5rem 0 1.5rem 2.5rem;
+}
+
+#heading1{
+    color: var(--white);
+}
+
+#heading2{
+    color: var(--secondary-color);
+    padding-left: 6rem;
 }
