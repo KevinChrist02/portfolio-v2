@@ -1,3 +1,12 @@
+:root{
+    --primary-color: #313dc4;
+    --secondary-color: #f8d112;
+    --black: #222222;
+    --white: #ffffff;
+    --font-primary: 'Satoshi', sans-serif;
+    --font-heading: 'Stardom', sans-serif; 
+}
+
 html{
     font-size: 100%;
 }
