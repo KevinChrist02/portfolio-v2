@@ -21,7 +21,6 @@ body{
 #navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     font-family: var(--font-heading);
     font-weight: 700;
     font-size: 2.5rem;
@@ -72,7 +71,7 @@ a:hover{
     margin: 0;
 }
 
-img{
+#picture img{
     max-width: 100%;
     max-height: 30rem;
     border-radius: 6rem;
@@ -93,5 +92,21 @@ img{
     color: var(--black);
     font-size: 3rem;
     font-weight: 700;
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 1rem 2rem;
+}
+
+#contact{
+    margin-bottom: 6rem;
+}
+
+#contact-svg{
+    padding: 0rem 2rem;
+    display: flex;
+    gap:4rem;
+}
+
+#contact-svg img {
+    max-width: 100%;
+    max-height: 2.5rem;
+    object-fit: container;
 }
